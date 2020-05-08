@@ -9,8 +9,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class SearchTest {
 
 	WebDriver driver;
@@ -18,7 +16,9 @@ public class SearchTest {
 	@BeforeMethod
 	public void browserlaunch() {
 
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
+		
+		System.setProperty("webdriver.chrome.driver", "C://Users//sounderrajan.jothi//Desktop//Drivers & Jenkins & JAVA//chromedriver_win32//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
