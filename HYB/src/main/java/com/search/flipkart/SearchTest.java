@@ -18,7 +18,7 @@ public class SearchTest {
 
 		//WebDriverManager.chromedriver().setup();
 		
-		System.setProperty("webdriver.chrome.driver", "C://Users//sounderrajan.jothi//Desktop//Drivers & Jenkins & JAVA//chromedriver_win32//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();

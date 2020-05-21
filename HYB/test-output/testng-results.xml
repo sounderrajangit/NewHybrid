@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22956" started-at="2020-05-08T11:01:30Z" finished-at="2020-05-08T11:01:53Z">
+  <suite name="Default suite" duration-ms="26393" started-at="2020-05-21T03:58:14Z" finished-at="2020-05-21T03:58:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22956" started-at="2020-05-08T11:01:30Z" finished-at="2020-05-08T11:01:53Z">
+    <test name="Default test" duration-ms="26393" started-at="2020-05-21T03:58:14Z" finished-at="2020-05-21T03:58:41Z">
       <class name="com.search.flipkart.SearchTest">
-        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:com.search.flipkart.SearchTest@66a3ffec]" name="browserlaunch" is-config="true" duration-ms="21783" started-at="2020-05-08T11:01:30Z" finished-at="2020-05-08T11:01:52Z">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:com.search.flipkart.SearchTest@66a3ffec]" name="browserlaunch" is-config="true" duration-ms="24825" started-at="2020-05-21T03:58:14Z" finished-at="2020-05-21T03:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.search.flipkart.SearchTest@66a3ffec]" name="test1" duration-ms="282" started-at="2020-05-08T11:01:52Z" finished-at="2020-05-08T11:01:53Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.search.flipkart.SearchTest@66a3ffec]" name="test1" duration-ms="526" started-at="2020-05-21T03:58:39Z" finished-at="2020-05-21T03:58:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.search.flipkart.SearchTest@66a3ffec]" name="browserclose" is-config="true" duration-ms="866" started-at="2020-05-08T11:01:53Z" finished-at="2020-05-08T11:01:53Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.search.flipkart.SearchTest@66a3ffec]" name="browserclose" is-config="true" duration-ms="984" started-at="2020-05-21T03:58:40Z" finished-at="2020-05-21T03:58:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
